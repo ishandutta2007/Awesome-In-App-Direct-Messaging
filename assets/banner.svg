@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="40%" stop-color="#0F172A"/>
+      <stop offset="80%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(30, 41, 59, 0.85)"/>
+      <stop offset="100%" stop-color="rgba(15, 23, 42, 0.90)"/>
+    </linearGradient>
+
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+
+    <linearGradient id="accent-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Animations -->
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.15); }
+      }
+      @keyframes flowDash {
+        0% { stroke-dashoffset: 120; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes floatBubbleA {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      @keyframes floatBubbleB {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(10px) rotate(-1deg); }
+      }
+      @keyframes pingDot {
+        0% { r: 3px; opacity: 1; }
+        100% { r: 9px; opacity: 0; }
+      }
+      @keyframes waveSignal {
+        0% { opacity: 0.3; }
+        50% { opacity: 0.9; }
+        100% { opacity: 0.3; }
+      }
+
+      .glow-orb-1 {
+        transform-origin: 200px 100px;
+        animation: pulseGlow 7s ease-in-out infinite;
+      }
+      .glow-orb-2 {
+        transform-origin: 1000px 320px;
+        animation: pulseGlow 8s ease-in-out infinite 1s;
+      }
+      .stream-flow {
+        stroke-dasharray: 8 10;
+        animation: flowDash 3s linear infinite;
+      }
+      .bubble-float-a {
+        animation: floatBubbleA 5s ease-in-out infinite;
+      }
+      .bubble-float-b {
+        animation: floatBubbleB 6s ease-in-out infinite 0.5s;
+      }
+      .ping-pulse {
+        animation: pingDot 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+      }
+      .signal-wave {
+        animation: waveSignal 2.5s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="420" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Subtle Circuit / Network Grid Lines -->
+  <g stroke="#334155" stroke-opacity="0.15" stroke-width="1">
+    <line x1="0" y1="70" x2="1200" y2="70"/>
+    <line x1="0" y1="140" x2="1200" y2="140"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="280" x2="1200" y2="280"/>
+    <line x1="0" y1="350" x2="1200" y2="350"/>
+    <line x1="150" y1="0" x2="150" y2="420"/>
+    <line x1="300" y1="0" x2="300" y2="420"/>
+    <line x1="450" y1="0" x2="450" y2="420"/>
+    <line x1="600" y1="0" x2="600" y2="420"/>
+    <line x1="750" y1="0" x2="750" y2="420"/>
+    <line x1="900" y1="0" x2="900" y2="420"/>
+    <line x1="1050" y1="0" x2="1050" y2="420"/>
+  </g>
+
+  <!-- Ambient Animated Glow Orbs (Background layer) -->
+  <circle class="glow-orb-1" cx="220" cy="110" r="140" fill="#38BDF8" opacity="0.18" filter="url(#glow-cyan)"/>
+  <circle class="glow-orb-2" cx="1020" cy="310" r="160" fill="#A855F7" opacity="0.18" filter="url(#glow-purple)"/>
+  <circle cx="600" cy="210" r="180" fill="#6366F1" opacity="0.08" filter="url(#glow-purple)"/>
+
+  <!-- Animated Messaging Data Streams (Behind text) -->
+  <g fill="none" stroke-width="2">
+    <!-- Top-Left to Center Path -->
+    <path d="M 60 90 Q 240 40 400 130" stroke="#38BDF8" stroke-opacity="0.5" class="stream-flow"/>
+    <!-- Bottom-Left to Bottom-Center Path -->
+    <path d="M 80 340 Q 260 380 440 330" stroke="#818CF8" stroke-opacity="0.5" class="stream-flow"/>
+    <!-- Top-Right to Center-Right Path -->
+    <path d="M 1120 80 Q 980 40 820 120" stroke="#C084FC" stroke-opacity="0.5" class="stream-flow"/>
+    <!-- Bottom-Right to Center Path -->
+    <path d="M 1140 330 Q 960 380 780 320" stroke="#38BDF8" stroke-opacity="0.5" class="stream-flow"/>
+  </g>
+
+  <!-- Dynamic Flanking Pills / Chat Cards (Left & Right margins - Never overlapping center) -->
+  <!-- Left Side Floating Card 1: Chat API -->
+  <g class="bubble-float-a" transform="translate(60, 110)">
+    <rect width="180" height="54" rx="27" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.5" filter="url(#card-shadow)"/>
+    <circle cx="28" cy="27" r="14" fill="#0284C7"/>
+    <text x="28" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">⚡</text>
+    <text x="56" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#E2E8F0">Chat APIs</text>
+    <text x="56" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94A3B8">&lt; 10ms Latency</text>
+    <!-- Ping indicator -->
+    <circle cx="162" cy="18" r="4" fill="#38BDF8"/>
+  </g>
+
+  <!-- Left Side Floating Card 2: Realtime WebSockets -->
+  <g class="bubble-float-b" transform="translate(45, 235)">
+    <rect width="195" height="54" rx="27" fill="#0F172A" stroke="#818CF8" stroke-opacity="0.4" stroke-width="1.5" filter="url(#card-shadow)"/>
+    <circle cx="28" cy="27" r="14" fill="#4F46E5"/>
+    <text x="28" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">📡</text>
+    <text x="56" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#E2E8F0">WebSockets</text>
+    <text x="56" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94A3B8">Bi-directional Mesh</text>
+    <circle cx="177" cy="18" r="4" fill="#10B981"/>
+  </g>
+
+  <!-- Right Side Floating Card 1: E2E Security -->
+  <g class="bubble-float-b" transform="translate(950, 110)">
+    <rect width="190" height="54" rx="27" fill="#0F172A" stroke="#C084FC" stroke-opacity="0.4" stroke-width="1.5" filter="url(#card-shadow)"/>
+    <circle cx="28" cy="27" r="14" fill="#7C3AED"/>
+    <text x="28" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">🔒</text>
+    <text x="56" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#E2E8F0">E2E Encrypted</text>
+    <text x="56" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94A3B8">Signal Protocol / OMEMO</text>
+    <circle cx="172" cy="18" r="4" fill="#C084FC"/>
+  </g>
+
+  <!-- Right Side Floating Card 2: Open Source & Self-Host -->
+  <g class="bubble-float-a" transform="translate(965, 235)">
+    <rect width="180" height="54" rx="27" fill="#0F172A" stroke="#10B981" stroke-opacity="0.4" stroke-width="1.5" filter="url(#card-shadow)"/>
+    <circle cx="28" cy="27" r="14" fill="#059669"/>
+    <text x="28" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">🌐</text>
+    <text x="56" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#E2E8F0">Self-Hosted</text>
+    <text x="56" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94A3B8">100% Data Sovereignty</text>
+    <circle cx="162" cy="18" r="4" fill="#10B981"/>
+  </g>
+
+  <!-- FOREGROUND HERO CONTAINER (Guarantees Title & Subtitle Are Crystal Clear & Never Obscured) -->
+  <g transform="translate(270, 50)" filter="url(#card-shadow)">
+    <!-- Glassmorphism Hero Panel -->
+    <rect width="660" height="310" rx="20" fill="url(#card-grad)" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1.5"/>
+
+    <!-- Category Tag / Top Badge -->
+    <g transform="translate(230, 26)">
+      <rect width="200" height="28" rx="14" fill="#1E293B" stroke="#6366F1" stroke-opacity="0.5" stroke-width="1"/>
+      <circle cx="14" cy="14" r="4" fill="#38BDF8" class="signal-wave"/>
+      <text x="105" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="bold" fill="#93C5FD" text-anchor="middle" letter-spacing="1">CURATED ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="330" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">
+      Awesome In-App &amp; Direct Messaging
+    </text>
+
+    <!-- Title Underline / Shimmer Bar -->
+    <rect x="230" y="122" width="200" height="3" rx="1.5" fill="url(#primary-grad)"/>
+
+    <!-- Subtitle (Line 1) -->
+    <text x="330" y="156" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#E2E8F0" text-anchor="middle">
+      Top Real-Time Chat APIs, In-App Messaging SDKs &amp; Direct Chat Infrastructure
+    </text>
+
+    <!-- Subtitle (Line 2) -->
+    <text x="330" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#94A3B8" text-anchor="middle">
+      Enterprise SaaS Platforms • Self-Hosted Open-Source Engines • Decentralized Protocols
+    </text>
+
+    <!-- Interactive / Status Pills in Hero Card -->
+    <g transform="translate(70, 215)">
+      <!-- Pill 1: Web & Mobile SDKs -->
+      <g transform="translate(0, 0)">
+        <rect width="150" height="36" rx="10" fill="#1E293B" stroke="#475569" stroke-width="1"/>
+        <text x="75" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#CBD5E1" text-anchor="middle">📱 iOS, Android &amp; Web</text>
+      </g>
+      <!-- Pill 2: 1:1 & Group Chat -->
+      <g transform="translate(162, 0)">
+        <rect width="180" height="36" rx="10" fill="#1E293B" stroke="#475569" stroke-width="1"/>
+        <text x="90" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#CBD5E1" text-anchor="middle">💬 1:1, Group &amp; Channels</text>
+      </g>
+      <!-- Pill 3: AI Copilots & Moderation -->
+      <g transform="translate(354, 0)">
+        <rect width="165" height="36" rx="10" fill="#1E293B" stroke="#475569" stroke-width="1"/>
+        <text x="82" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#CBD5E1" text-anchor="middle">🤖 AI Bots &amp; Moderation</text>
+      </g>
+    </g>
+
+    <!-- Footer Meta within card -->
+    <g transform="translate(330, 282)">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="middle">
+        Curated with ❤️ for Product Engineers, Mobile Architects &amp; Full-Stack Developers
+      </text>
+    </g>
+  </g>
+</svg>
