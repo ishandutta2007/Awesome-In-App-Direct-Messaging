@@ -5,7 +5,7 @@
 # 💬 Awesome In-App & Direct Messaging 🚀
 
 <p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-In-App-Direct-Messaging/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-In-App-Direct-Messaging?style=flat-square&logo=github&color=blue" alt="GitHub Stars"/></a><a href="https://github.com/ishandutta2007/Awesome-In-App-Direct-Messaging/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-In-App-Direct-Messaging?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a><a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/></a><a href="https://github.com/ishandutta2007/Awesome-In-App-Direct-Messaging/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-In-App-Direct-Messaging/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-In-App-Direct-Messaging?style=flat-square&logo=github&color=blue" alt="GitHub_Stars"/></a><a href="https://github.com/ishandutta2007/Awesome-In-App-Direct-Messaging/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-In-App-Direct-Messaging?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a><a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/></a><a href="https://github.com/ishandutta2007/Awesome-In-App-Direct-Messaging/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -64,63 +64,63 @@ The table below catalogs leading commercial in-app chat APIs and hosted messagin
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore the leading self-hosted messaging engines, decentralized chat protocols, and developer libraries, **sorted in descending order by GitHub star count**.
+Explore the leading self-hosted messaging engines, decentralized chat protocols, and developer libraries, **sorted in descending order by GitHub Stars_Count**.
 
-* **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** [![GitHub stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers)  
+* **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** [![GitHub_Stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers)  
   *The ultimate open-source communication platform & Hub.* Full-featured Slack/Teams alternative with omnichannel customer support live chat, team direct messaging, voice/video conferencing, and an extensive marketplace of integrations. Deployable via Docker, Kubernetes, or source.
 
-* **[Novu](https://github.com/novuhq/novu)** [![GitHub stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers)  
+* **[Novu](https://github.com/novuhq/novu)** [![GitHub_Stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers)  
   *Open-source notification & in-app inbox infrastructure.* Provides drop-in React, Vue, Angular, and web components for user-facing in-app message feeds, bell notifications, user notification preferences, and multi-channel delivery workflows (Push, Email, SMS, Chat).
 
-* **[Mattermost](https://github.com/mattermost/mattermost)** [![GitHub stars](https://img.shields.io/github/stars/mattermost/mattermost/stargazers)](https://github.com/mattermost/mattermost/stargazers)  
+* **[Mattermost](https://github.com/mattermost/mattermost)** [![GitHub_Stars](https://img.shields.io/github/stars/mattermost/mattermost/stargazers)](https://github.com/mattermost/mattermost/stargazers)  
   *Secure, self-hosted collaboration platform for technical and operational teams.* Written in Go and React, featuring 1:1 direct messages, role-based channels, integrated playbooks, board task management, and deep developer tooling integrations.
 
-* **[Chatwoot](https://github.com/chatwoot/chatwoot)** [![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
+* **[Chatwoot](https://github.com/chatwoot/chatwoot)** [![GitHub_Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
   *Open-source customer engagement & live chat platform.* Intercom/Zendesk alternative featuring an embeddable in-app live chat widget for mobile and web apps, unified inbox, multi-agent collaboration, canned responses, and custom webhooks.
 
-* **[Zulip](https://github.com/zulip/zulip)** [![GitHub stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers)  
+* **[Zulip](https://github.com/zulip/zulip)** [![GitHub_Stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers)  
   *Organized team chat combining real-time messaging with email-style threading.* Allows teams to easily follow asynchronous topic threads while maintaining real-time conversation flows. Features enterprise LDAP/SAML, markdown, and full REST APIs.
 
-* **[SimpleX Chat](https://github.com/simplex-chat/simplex-chat)** [![GitHub stars](https://img.shields.io/github/stars/simplex-chat/simplex-chat?style=social&color=white)](https://github.com/simplex-chat/simplex-chat/stargazers)  
+* **[SimpleX Chat](https://github.com/simplex-chat/simplex-chat)** [![GitHub_Stars](https://img.shields.io/github/stars/simplex-chat/simplex-chat?style=social&color=white)](https://github.com/simplex-chat/simplex-chat/stargazers)  
   *Privacy-first decentralized messaging protocol with zero user IDs.* Eliminates phone numbers, usernames, and permanent network identifiers. Delivers end-to-end encrypted direct messaging, encrypted group chats, and self-hosted relay queues.
 
-* **[Element Web](https://github.com/element-hq/element-web)** [![GitHub stars](https://img.shields.io/github/stars/element-hq/element-web?style=social&color=white)](https://github.com/element-hq/element-web/stargazers)  
+* **[Element Web](https://github.com/element-hq/element-web)** [![GitHub_Stars](https://img.shields.io/github/stars/element-hq/element-web?style=social&color=white)](https://github.com/element-hq/element-web/stargazers)  
   *Flagship web client for the decentralized Matrix communication protocol.* End-to-end encrypted messaging, decentralized room federation, voice/video calls via WebRTC, and bridges to Slack, Discord, and Telegram.
 
-* **[Tinode](https://github.com/tinode/chat)** [![GitHub stars](https://img.shields.io/github/stars/tinode/chat?style=social&color=white)](https://github.com/tinode/chat/stargazers)  
+* **[Tinode](https://github.com/tinode/chat)** [![GitHub_Stars](https://img.shields.io/github/stars/tinode/chat?style=social&color=white)](https://github.com/tinode/chat/stargazers)  
   *Pure Go instant messaging server and client SDKs.* Highly performant, database-agnostic (MySQL, PostgreSQL, MongoDB, RethinkDB) IM server with gRPC and WebSocket APIs. Provides native SDKs for Android (Java/Kotlin), iOS (Swift), and Web (JavaScript).
 
-* **[Matrix Synapse](https://github.com/matrix-org/synapse)** [![GitHub stars](https://img.shields.io/github/stars/matrix-org/synapse?style=social&color=white)](https://github.com/matrix-org/synapse/stargazers)  
+* **[Matrix Synapse](https://github.com/matrix-org/synapse)** [![GitHub_Stars](https://img.shields.io/github/stars/matrix-org/synapse?style=social&color=white)](https://github.com/matrix-org/synapse/stargazers)  
   *Reference homeserver for the Matrix open communication standard.* Powers decentralized real-time messaging, cryptographic identity signing, room state synchronization, and federation across independent servers.
 
-* **[Centrifugo](https://github.com/centrifugal/centrifugo)** [![GitHub stars](https://img.shields.io/github/stars/centrifugal/centrifugo?style=social&color=white)](https://github.com/centrifugal/centrifugo/stargazers)  
+* **[Centrifugo](https://github.com/centrifugal/centrifugo)** [![GitHub_Stars](https://img.shields.io/github/stars/centrifugal/centrifugo?style=social&color=white)](https://github.com/centrifugal/centrifugo/stargazers)  
   *Scalable real-time messaging server in Go.* Connects to existing application backends over WebSocket, HTTP-streaming, or SSE to power live chat rooms, user presence detection, message histories, and channel broadcast distribution.
 
-* **[Matterbridge](https://github.com/42wim/matterbridge)** [![GitHub stars](https://img.shields.io/github/stars/42wim/matterbridge?style=social&color=white)](https://github.com/42wim/matterbridge/stargazers)  
+* **[Matterbridge](https://github.com/42wim/matterbridge)** [![GitHub_Stars](https://img.shields.io/github/stars/42wim/matterbridge?style=social&color=white)](https://github.com/42wim/matterbridge/stargazers)  
   *Universal chat bridge daemon.* Interconnects conversations across Mattermost, Slack, Discord, Matrix, Telegram, IRC, XMPP, Zulip, and Rocket.Chat with bi-directional message routing.
 
-* **[Stoat (formerly Revolt Backend)](https://github.com/stoatchat/stoatchat)** [![GitHub stars](https://img.shields.io/github/stars/stoatchat/stoatchat?style=social&color=white)](https://github.com/stoatchat/stoatchat/stargazers)  
+* **[Stoat (formerly Revolt Backend)](https://github.com/stoatchat/stoatchat)** [![GitHub_Stars](https://img.shields.io/github/stars/stoatchat/stoatchat?style=social&color=white)](https://github.com/stoatchat/stoatchat/stargazers)  
   *Open-source community chat platform written in Rust.* Privacy-respecting Discord alternative offering customizable servers, channels, direct messages, role permissions, and WebSocket event feeds.
 
-* **[Converse.js](https://github.com/conversejs/converse.js)** [![GitHub stars](https://img.shields.io/github/stars/conversejs/converse.js?style=social&color=white)](https://github.com/conversejs/converse.js/stargazers)  
+* **[Converse.js](https://github.com/conversejs/converse.js)** [![GitHub_Stars](https://img.shields.io/github/stars/conversejs/converse.js?style=social&color=white)](https://github.com/conversejs/converse.js/stargazers)  
   *Embeddable web chat client for XMPP.* Can be integrated into existing web apps as an overlay floating chat dock or full-page messaging app. Supports OMEMO end-to-end encryption, multi-user chat (MUC), and vCards.
 
-* **[Wire Server](https://github.com/wireapp/wire-server)** [![GitHub stars](https://img.shields.io/github/stars/wireapp/wire-server?style=social&color=white)](https://github.com/wireapp/wire-server/stargazers)  
+* **[Wire Server](https://github.com/wireapp/wire-server)** [![GitHub_Stars](https://img.shields.io/github/stars/wireapp/wire-server?style=social&color=white)](https://github.com/wireapp/wire-server/stargazers)  
   *Enterprise-grade secure collaboration backend.* Written in Haskell and deployed with Kubernetes/Cassandra, delivering end-to-end encrypted messaging, voice/video conferencing, and strict European data privacy compliance.
 
-* **[c-toxcore](https://github.com/TokTok/c-toxcore)** [![GitHub stars](https://img.shields.io/github/stars/TokTok/c-toxcore?style=social&color=white)](https://github.com/TokTok/c-toxcore/stargazers)  
+* **[c-toxcore](https://github.com/TokTok/c-toxcore)** [![GitHub_Stars](https://img.shields.io/github/stars/TokTok/c-toxcore?style=social&color=white)](https://github.com/TokTok/c-toxcore/stargazers)  
   *Peer-to-peer (P2P) decentralized messaging core library.* Zero servers, zero metadata tracking. Connects users over DHT with NaCl (Curve25519) encryption for text, audio, and file transfers.
 
-* **[Turms](https://github.com/turms-im/turms)** [![GitHub stars](https://img.shields.io/github/stars/turms-im/turms?style=social&color=white)](https://github.com/turms-im/turms/stargazers)  
+* **[Turms](https://github.com/turms-im/turms)** [![GitHub_Stars](https://img.shields.io/github/stars/turms-im/turms?style=social&color=white)](https://github.com/turms-im/turms/stargazers)  
   *Extreme-scale distributed instant messaging engine.* Built on Java and Spring WebFlux, engineered to handle 100K to 10M+ concurrent online users with sub-millisecond latencies and pluggable business logic.
 
-* **[Mqvi](https://github.com/akinalpfdn/Mqvi)** [![GitHub stars](https://img.shields.io/github/stars/akinalpfdn/Mqvi?style=social&color=white)](https://github.com/akinalpfdn/Mqvi/stargazers)  
+* **[Mqvi](https://github.com/akinalpfdn/Mqvi)** [![GitHub_Stars](https://img.shields.io/github/stars/akinalpfdn/Mqvi?style=social&color=white)](https://github.com/akinalpfdn/Mqvi/stargazers)  
   *No-ID communication platform with voice, video, and text.* Features Signal-protocol end-to-end encrypted direct messaging (X3DH + Double Ratchet), LiveKit audio/video, and zero user data retention.
 
-* **[PlugChat](https://github.com/cLLeB/plugchat)** [![GitHub stars](https://img.shields.io/github/stars/cLLeB/plugchat?style=social&color=white)](https://github.com/cLLeB/plugchat/stargazers)  
+* **[PlugChat](https://github.com/cLLeB/plugchat)** [![GitHub_Stars](https://img.shields.io/github/stars/cLLeB/plugchat?style=social&color=white)](https://github.com/cLLeB/plugchat/stargazers)  
   *Zero-database-sync self-hosted chat process.* Trusts JWTs signed by your backend, eliminating user table synchronization. Supports 1:1 direct conversations, group channels, disappearing messages, and built-in WebRTC calls.
 
-* **[Poolse JS SDK](https://github.com/poolse-hq/js-sdk)** [![GitHub stars](https://img.shields.io/github/stars/poolse-hq/js-sdk?style=social&color=white)](https://github.com/poolse-hq/js-sdk/stargazers)  
+* **[Poolse JS SDK](https://github.com/poolse-hq/js-sdk)** [![GitHub_Stars](https://img.shields.io/github/stars/poolse-hq/js-sdk?style=social&color=white)](https://github.com/poolse-hq/js-sdk/stargazers)  
   *Real-time TypeScript chat SDK with React and React Native components.* Turnkey drop-in UI kit supporting messages, presence, typing indicators, reactions, threads, and offline queues.
 
 ---
@@ -186,7 +186,7 @@ We welcome community contributions! To add a new platform, SDK, or open-source r
 2. Ensure the project is active, well-documented, and relevant to in-app or direct messaging.
 3. Add the entry to either the SaaS table or the Open-Source list (maintaining sorting rules).
 4. For SaaS tools: include starting tier pricing, free limits, and company scale.
-5. For Open-Source tools: include a social-style white star badge linking to its `/stargazers` page.
+5. For Open-Source tools: include a social-style white Stars_Badge linking to its `/stargazers` page.
 6. Open a clear Pull Request detailing your changes.
 
 ---
